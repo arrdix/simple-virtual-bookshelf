@@ -1,2 +1,3 @@
-# simple-virtual-bookshelf
-Simple virtual bookshelf created using basic JavaScript, HTML &amp; CSS.
+# Simple Virtual Bookshelf
+
+Simple virtual bookshelf created using basic JavaScript, HTML & CSS.
