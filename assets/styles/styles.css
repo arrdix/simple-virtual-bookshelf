@@ -92,7 +92,7 @@ main {
   align-items: center;
   flex-direction: column;
 }
-.toread, finished {
+.toread, .finished {
   width: 95%;
   display: flex;
   flex-direction: column;
