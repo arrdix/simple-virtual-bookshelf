@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+      <ul>
+        <li><a href="index.html">Virtual Bookshelf</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form id="search-book" class="search-bar">
+      <div class="search-container">
+        <input id="search" class="search-box" placeholder="Search (by title)" type="text">
+        <button type="submit" class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+      </div>
+    </form>
+    <div class="add-new">
+      <h2>Add New Book</h2>
+      <form id="input-book" class="form-container">
+        <div class="input-box">
+          <label for="title">Title</label>
+          <input class="input" id="title" type="text" name="title" placeholder="e.g. Harry Potter" required>
+        </div>
+        <div class="input-box">
+          <label for="author">Author</label>
+          <input class="input" id="author" type="text" name="author" placeholder="e.g. JK. Rowling" required>
+        </div>
+        <div class="input-box">
+          <label for="year">Year</label>
+          <input class="input" id="year" type="number" name="year" placeholder="e.g. 1997" required>
+        </div>
+        <div class="input-box">
+          <label for="cover">Cover</label>
+          <input class="input" id="cover" type="text" name="cover" placeholder="Pick one: book1 / book2 / book3 / book4" required>
+        </div>
+        <div class="input-check">
+          <label for="finished">Finished</label>
+          <input class="check" id="check" type="checkbox" value="true" name="finished">
+        </div>
+        <input class="submit-btn" id="submit-btn" type="submit" value="Submit">
+    </div>
+    <di v class="toread">
+      <div class="toread-title">
+        <h2>To Read</h2>
+        <p id="toread-count">59 Books</p>
+      </div>
+      <div id="toread-container" class="toread-container">
+        <!-- TO READ BOOKS -->
+      </div>
+    </div>
+    <div class="finished">
+      <div class="finished-title">
+        <h2>Finished</h2>
+        <p id="finished-count">59 Books</p>
+      </div>
+      <div id="finished-container" class="finished-container">
+        <!-- FINISHED BOOKS -->
+      </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@500;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  overflow: scroll;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+hr {
+  margin: 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
+.nav-container {
+  width: 100%;
+  max-width: 400px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav-container ul {
+  padding: 0;
+  display: flex;
+  gap: 3rem;
+}
+.nav-container ul li {
+  list-style-type: none;
+}
+.nav-container ul li a {
+  text-decoration: none;
+  color: black;
+}
+.search-bar {
+  width: 100%;
+}
+.search-container {
+  width: 100%;
+  display: flex;
+}
+.search-box {
+ width: 90%;
+ padding: 0.5rem;
+ border: 1px solid black;
+ border-radius: 0;
+}
+.search-button {
+  width: 10%;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+.search-button:hover {
+  background-color: #212121;
+  border: 1px solid #212121;
+}
+main {
+  width: 100%;
+  max-width: 400px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.toread, finished {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.toread-title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  margin-top: 1rem;
+  padding-block: 0.5rem;
+}
+.toread-title h2 {
+  margin: 0;
+}
+.toread-title p {
+  margin: 0;
+  margin-bottom: 0.3rem;
+}
+.finished-title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  margin-top: 2rem;
+  padding-block: 0.5rem;
+}
+.finished-title h2 {
+  margin: 0;
+}
+.finished-title p {
+  margin: 0;
+  margin-bottom: 0.3rem;
+}
+.books-container {
+  padding-top: 2rem;
+
+  display: flex;
+  flex-direction: row;
+}
+.books-container img {
+  width: 150px;
+  margin-right: 1rem;
+}
+.books-detail {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.books-detail h4 {
+  margin: 0;
+}
+.books-detail .title {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.btn-container {
+  margin-top: auto;
+  margin-left: auto;
+  display: flex;
+  gap: 0.3rem;
+}
+.btn-container button {
+  background-color: transparent;
+  border: 0;
+  padding: 5px;
+  font-size: 1.2rem;
+  color: black;
+}
+.btn-container button:hover {
+  color: #303030;
+  cursor: pointer;
+}
+.add-new {
+  width: 100%;
+  max-width: 400px;
+  margin-inline: auto;
+  text-align: center;
+}
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.input-check {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-block: 0.5rem;
+  margin-right: 14.7rem;
+}
+.check {
+  accent-color: black;
+  width: 0.9rem;
+  height: 0.9rem;
+}
+.input {
+  padding: 0.5rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.submit-btn {
+  margin-left: 15.3rem;
+  background-color: black;
+  border: 1px solid black;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  color: white;
+}
+.submit-btn:hover {
+  background-color: #212121;
+  border: 1px solid #212121;
+  cursor: pointer;
+}
